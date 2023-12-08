@@ -14,7 +14,7 @@
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <nav class="fixed top-0 z-[999] flex min-w-full items-center justify-between bg-white px-36 py-6 shadow">
+  <nav class="fixed top-0 z-[999] flex min-w-full items-center justify-between bg-white px-16 py-3 shadow lg:px-36 lg:py-6">
     <img src="../assets/logo-ligasmk-dark.png" alt="Logo Liga SMK">
 
     <ul class="flex items-center gap-10">
@@ -53,11 +53,11 @@
 
   <main class="min-h-full min-w-full">
     <!-- Hero Section -->
-    <section class="flex min-h-screen items-center justify-between bg-[#f0f3ff] px-36 py-28" id="hero">
+    <section class="flex min-h-screen items-center justify-between bg-[#f0f3ff] px-16 py-10 lg:px-36 lg:py-28" id="hero">
       <!-- Right Part -->
-      <div class="flex basis-2/6 flex-col gap-8">
-        <h1 class="font-display text-5xl font-bold leading-tight text-[#101213]">Bergabunglah dengan jutaan orang dan belajar hal baru</h1>
-        <p class="font-display text-lg text-[#101213]/75">Mengubah kehidupan, bisnis, dan bangsa melalui transformasi talenta di bidang teknologi digital.</p>
+      <div class="flex max-w-sm flex-col gap-8">
+        <h1 class="font-display text-5xl font-bold leading-snug tracking-wide text-[#101213]">Bergabunglah dengan jutaan orang dan belajar hal baru</h1>
+        <p class="font-display text-base text-[#101213]/75">Mengubah kehidupan, bisnis, dan bangsa melalui transformasi talenta di bidang teknologi digital.</p>
         <a href="#" class="flex w-fit items-center gap-16 rounded-md bg-[#3a10e5] px-6 py-3">
           <span class="font-display text-sm font-medium text-white">Mulai Belajar</span>
           <img src="../assets/icon/icon-arrowlong-right.svg" alt="Long Arrow Icon">
@@ -65,54 +65,54 @@
       </div>
 
       <!-- Left Part -->
-      <img class="max-w-md" src="../assets/images/shape-diagram.png" alt="Women Calling in Diagram">
+      <img class="max-w-sm" src="../assets/images/shape-diagram.png" alt="Women Calling in Diagram">
     </section>
 
-    <!-- Feature Section (?) -->
-    <div class="flex items-center justify-between bg-[#facb3b] px-36 py-16">
+    <!-- Career Bar -->
+    <div class="flex items-center justify-between bg-[#facb3b] px-16 py-8 lg:px-36 lg:py-16">
       <div class="flex items-center gap-6">
         <img src="../assets/icon/icon-online-education.svg" alt="Online Education Icon">
         <div class="space-y-1 font-display text-[#101213]">
-          <h3 class="text-xl font-bold">Membangun Karir</h3>
-          <p>Semua yang butuh kerja</p>
+          <h3 class="text-lg font-bold">Membangun Karir</h3>
+          <p class="text-sm">Semua yang butuh kerja</p>
         </div>
       </div>
       <div class="flex items-center gap-6">
         <img src="../assets/icon/icon-globe-handphone.svg" alt="Globe Handphone Icon">
         <div class="space-y-1 font-display text-[#101213]">
-          <h3 class="text-xl font-bold">Cari Materi Belajar</h3>
-          <p>Seberapa pengetahuan kamu</p>
+          <h3 class="text-lg font-bold">Cari Materi Belajar</h3>
+          <p class="text-sm">Seberapa pengetahuan kamu</p>
         </div>
       </div>
       <div class="flex items-center gap-6">
         <img src="../assets/icon/icon-online-education-laptop.svg" alt="Online Education Laptop Icon">
         <div class="space-y-1 font-display text-[#101213]">
-          <h3 class="text-xl font-bold">Kuasai Skill Baru</h3>
-          <p>Fokus apa yang dibutuhkan</p>
+          <h3 class="text-lg font-bold">Kuasai Skill Baru</h3>
+          <p class="text-sm">Fokus apa yang dibutuhkan</p>
         </div>
       </div>
     </div>
 
     <!-- Course Section -->
-    <section class="px-36 py-28">
+    <section class="px-16 py-10 lg:px-36 lg:py-28">
       <!-- Sub Heading -->
-      <div class="flex items-center justify-between">
+      <div class="flex flex-col gap-5 lg:flex-row lg:items-center lg:justify-between">
         <h2 class="font-display text-3xl font-bold text-[#101213]">
           Pembelajaran
-          <span class="relative z-[1] before:absolute before:bottom-0 before:left-0 before:z-[-1] before:h-[35%] before:w-full before:bg-[#fdd5a1] before:bg-bottom">Populer</span>
+          <span class="relative z-[1] before:absolute before:bottom-0 before:left-0 before:z-[-1] before:h-[35%] before:w-full before:bg-[#fdd5a1] before:bg-bottom">populer</span>
         </h2>
 
         <div class="flex items-center">
-          <a href="#" class="bg-white px-3 py-2 font-display font-medium text-[#101213] shadow-btn shadow-[#101213]/30 hover:shadow-[#101213]/60">Javascript</a>
-          <a href="#" class="px-3 py-2 font-display font-medium text-[#101213]/60">Python</a>
-          <a href="#" class="px-3 py-2 font-display font-medium text-[#101213]/60">Web Development</a>
-          <a href="#" class="px-3 py-2 font-display font-medium text-[#101213]/60">Art &amp; Design</a>
-          <a href="#" class="px-3 py-2 font-display font-medium text-[#101213]/60">Business</a>
+          <a href="#" class="px-3 py-2 font-display text-sm font-medium text-[#101213]/60 transition duration-100 ease-in hover:text-[#101213]/100 hover:shadow-btn hover:shadow-[#101213]/30">Javascript</a>
+          <a href="#" class="px-3 py-2 font-display text-sm font-medium text-[#101213]/60 transition duration-100 ease-in hover:text-[#101213]/100 hover:shadow-btn hover:shadow-[#101213]/30">Python</a>
+          <a href="#" class="px-3 py-2 font-display text-sm font-medium text-[#101213]/60 transition duration-100 ease-in hover:text-[#101213]/100 hover:shadow-btn hover:shadow-[#101213]/30">Web Development</a>
+          <a href="#" class="px-3 py-2 font-display text-sm font-medium text-[#101213]/60 transition duration-100 ease-in hover:text-[#101213]/100 hover:shadow-btn hover:shadow-[#101213]/30">Art &amp; Design</a>
+          <a href="#" class="px-3 py-2 font-display text-sm font-medium text-[#101213]/60 transition duration-100 ease-in hover:text-[#101213]/100 hover:shadow-btn hover:shadow-[#101213]/30">Business</a>
         </div>
       </div>
 
       <!-- Grid Container -->
-      <div class="mt-16 grid grid-cols-4 gap-8">
+      <div class="mt-16 grid grid-cols-1 gap-6 md:grid-cols-3 lg:grid-cols-4">
         <!-- Course Card 1 -->
         <div class="shadow-sm">
           <a class="relative block" href="#">
@@ -121,17 +121,17 @@
           </a>
           <div class="border border-t-0 border-[#101213]/20 p-8 text-[#101213]">
             <div class="flex flex-col gap-2">
-              <span class="font-display text-sm font-semibold text-[#3a10e5]">Alen Mask</span>
-              <h3 class="font-base text-xl font-medium">Why Learn Intermediate SQL for Marketers?</h3>
+              <span class="font-display text-xs font-semibold text-[#3a10e5]">Alen Mask</span>
+              <h3 class="text-md font-base font-medium">Why Learn Intermediate SQL for Marketers?</h3>
             </div>
             <div class="mt-6 flex items-center gap-5">
               <div class="flex items-center gap-2">
                 <img src="../assets/icon/icon-hamburger.svg" alt="Hamburger Icon">
-                <span class="text-sm">Beginner</span>
+                <span class="text-xs">Beginner</span>
               </div>
               <div class="flex items-center gap-2">
                 <img src="../assets/icon/icon-copy.svg" alt="Hamburger Icon">
-                <span class="text-sm">3 Lessons</span>
+                <span class="text-xs">3 Lessons</span>
               </div>
             </div>
           </div>
@@ -140,21 +140,21 @@
         <div class="shadow-sm">
           <a class="relative block" href="#">
             <img class="absolute left-3 top-3" src="../assets/icon/new-old-blue.png" alt="New Course Badge">
-            <img class="w-full object-cover" src="../assets/images/course-2.png" alt="Course 1 Cover Image">
+            <img class="w-full object-cover" src="../assets/images/course-2.png" alt="Course 2 Cover Image">
           </a>
           <div class="border border-t-0 border-[#101213]/20 p-8 text-[#101213]">
             <div class="flex flex-col gap-2">
-              <span class="font-display text-sm font-semibold text-[#3a10e5]">Alen Mask</span>
-              <h3 class="font-base text-xl font-medium">Why Learn Intermediate SQL for Marketers?</h3>
+              <span class="font-display text-xs font-semibold text-[#3a10e5]">Alen Mask</span>
+              <h3 class="text-md font-base font-medium">Why Learn Intermediate SQL for Marketers?</h3>
             </div>
             <div class="mt-6 flex items-center gap-5">
               <div class="flex items-center gap-2">
                 <img src="../assets/icon/icon-hamburger.svg" alt="Hamburger Icon">
-                <span class="text-sm">Beginner</span>
+                <span class="text-xs">Beginner</span>
               </div>
               <div class="flex items-center gap-2">
                 <img src="../assets/icon/icon-copy.svg" alt="Hamburger Icon">
-                <span class="text-sm">3 Lessons</span>
+                <span class="text-xs">3 Lessons</span>
               </div>
             </div>
           </div>
@@ -163,21 +163,21 @@
         <div class="shadow-sm">
           <a class="relative block" href="#">
             <img class="absolute left-3 top-3" src="../assets/icon/new-pink.png" alt="New Course Badge">
-            <img class="w-full object-cover" src="../assets/images/course-3.png" alt="Course 1 Cover Image">
+            <img class="w-full object-cover" src="../assets/images/course-3.png" alt="Course 3 Cover Image">
           </a>
           <div class="border border-t-0 border-[#101213]/20 p-8 text-[#101213]">
             <div class="flex flex-col gap-2">
-              <span class="font-display text-sm font-semibold text-[#3a10e5]">Alen Mask</span>
-              <h3 class="font-base text-xl font-medium">Why Learn Intermediate SQL for Marketers?</h3>
+              <span class="font-display text-xs font-semibold text-[#3a10e5]">Alen Mask</span>
+              <h3 class="text-md font-base font-medium">Why Learn Intermediate SQL for Marketers?</h3>
             </div>
             <div class="mt-6 flex items-center gap-5">
               <div class="flex items-center gap-2">
                 <img src="../assets/icon/icon-hamburger.svg" alt="Hamburger Icon">
-                <span class="text-sm">Beginner</span>
+                <span class="text-xs">Beginner</span>
               </div>
               <div class="flex items-center gap-2">
                 <img src="../assets/icon/icon-copy.svg" alt="Hamburger Icon">
-                <span class="text-sm">3 Lessons</span>
+                <span class="text-xs">3 Lessons</span>
               </div>
             </div>
           </div>
@@ -186,21 +186,21 @@
         <div class="shadow-sm">
           <a class="relative block" href="#">
             <img class="absolute left-3 top-3" src="../assets/icon/new-lightblue.png" alt="New Course Badge">
-            <img class="w-full object-cover" src="../assets/images/course-4.png" alt="Course 1 Cover Image">
+            <img class="w-full object-cover" src="../assets/images/course-4.png" alt="Course 4 Cover Image">
           </a>
           <div class="border border-t-0 border-[#101213]/20 p-8 text-[#101213]">
             <div class="flex flex-col gap-2">
-              <span class="font-display text-sm font-semibold text-[#3a10e5]">Alen Mask</span>
-              <h3 class="font-base text-xl font-medium">Why Learn Intermediate SQL for Marketers?</h3>
+              <span class="font-display text-xs font-semibold text-[#3a10e5]">Alen Mask</span>
+              <h3 class="text-md font-base font-medium">Why Learn Intermediate SQL for Marketers?</h3>
             </div>
             <div class="mt-6 flex items-center gap-5">
               <div class="flex items-center gap-2">
                 <img src="../assets/icon/icon-hamburger.svg" alt="Hamburger Icon">
-                <span class="text-sm">Beginner</span>
+                <span class="text-xs">Beginner</span>
               </div>
               <div class="flex items-center gap-2">
                 <img src="../assets/icon/icon-copy.svg" alt="Hamburger Icon">
-                <span class="text-sm">3 Lessons</span>
+                <span class="text-xs">3 Lessons</span>
               </div>
             </div>
           </div>
@@ -209,21 +209,21 @@
         <div class="shadow-sm">
           <a class="relative block" href="#">
             <img class="absolute left-3 top-3" src="../assets/icon/new-orange.png" alt="New Course Badge">
-            <img class="w-full object-cover" src="../assets/images/course-5.png" alt="Course 1 Cover Image">
+            <img class="w-full object-cover" src="../assets/images/course-5.png" alt="Course 5 Cover Image">
           </a>
           <div class="border border-t-0 border-[#101213]/20 p-8 text-[#101213]">
             <div class="flex flex-col gap-2">
-              <span class="font-display text-sm font-semibold text-[#3a10e5]">Alen Mask</span>
-              <h3 class="font-base text-xl font-medium">Why Learn Intermediate SQL for Marketers?</h3>
+              <span class="font-display text-xs font-semibold text-[#3a10e5]">Alen Mask</span>
+              <h3 class="text-md font-base font-medium">Why Learn Intermediate SQL for Marketers?</h3>
             </div>
             <div class="mt-6 flex items-center gap-5">
               <div class="flex items-center gap-2">
                 <img src="../assets/icon/icon-hamburger.svg" alt="Hamburger Icon">
-                <span class="text-sm">Beginner</span>
+                <span class="text-xs">Beginner</span>
               </div>
               <div class="flex items-center gap-2">
                 <img src="../assets/icon/icon-copy.svg" alt="Hamburger Icon">
-                <span class="text-sm">3 Lessons</span>
+                <span class="text-xs">3 Lessons</span>
               </div>
             </div>
           </div>
@@ -232,44 +232,44 @@
         <div class="shadow-sm">
           <a class="relative block" href="#">
             <img class="absolute left-3 top-3" src="../assets/icon/new-old-blue.png" alt="New Course Badge">
-            <img class="w-full object-cover" src="../assets/images/course-6.png" alt="Course 1 Cover Image">
+            <img class="w-full object-cover" src="../assets/images/course-6.png" alt="Course 6 Cover Image">
           </a>
           <div class="border border-t-0 border-[#101213]/20 p-8 text-[#101213]">
             <div class="flex flex-col gap-2">
-              <span class="font-display text-sm font-semibold text-[#3a10e5]">Alen Mask</span>
-              <h3 class="font-base text-xl font-medium">Why Learn Intermediate SQL for Marketers?</h3>
+              <span class="font-display text-xs font-semibold text-[#3a10e5]">Alen Mask</span>
+              <h3 class="text-md font-base font-medium">Why Learn Intermediate SQL for Marketers?</h3>
             </div>
             <div class="mt-6 flex items-center gap-5">
               <div class="flex items-center gap-2">
                 <img src="../assets/icon/icon-hamburger.svg" alt="Hamburger Icon">
-                <span class="text-sm">Beginner</span>
+                <span class="text-xs">Beginner</span>
               </div>
               <div class="flex items-center gap-2">
                 <img src="../assets/icon/icon-copy.svg" alt="Hamburger Icon">
-                <span class="text-sm">3 Lessons</span>
+                <span class="text-xs">3 Lessons</span>
               </div>
             </div>
           </div>
         </div>
-        <!-- Course Card 7 -->
+        <!-- Course Card 3 -->
         <div class="shadow-sm">
           <a class="relative block" href="#">
             <img class="absolute left-3 top-3" src="../assets/icon/new-pink.png" alt="New Course Badge">
-            <img class="w-full object-cover" src="../assets/images/course-7.png" alt="Course 1 Cover Image">
+            <img class="w-full object-cover" src="../assets/images/course-7.png" alt="Course 7 Cover Image">
           </a>
           <div class="border border-t-0 border-[#101213]/20 p-8 text-[#101213]">
             <div class="flex flex-col gap-2">
-              <span class="font-display text-sm font-semibold text-[#3a10e5]">Alen Mask</span>
-              <h3 class="font-base text-xl font-medium">Why Learn Intermediate SQL for Marketers?</h3>
+              <span class="font-display text-xs font-semibold text-[#3a10e5]">Alen Mask</span>
+              <h3 class="text-md font-base font-medium">Why Learn Intermediate SQL for Marketers?</h3>
             </div>
             <div class="mt-6 flex items-center gap-5">
               <div class="flex items-center gap-2">
                 <img src="../assets/icon/icon-hamburger.svg" alt="Hamburger Icon">
-                <span class="text-sm">Beginner</span>
+                <span class="text-xs">Beginner</span>
               </div>
               <div class="flex items-center gap-2">
                 <img src="../assets/icon/icon-copy.svg" alt="Hamburger Icon">
-                <span class="text-sm">3 Lessons</span>
+                <span class="text-xs">3 Lessons</span>
               </div>
             </div>
           </div>
@@ -278,21 +278,21 @@
         <div class="shadow-sm">
           <a class="relative block" href="#">
             <img class="absolute left-3 top-3" src="../assets/icon/new-lightblue.png" alt="New Course Badge">
-            <img class="w-full object-cover" src="../assets/images/course-8.png" alt="Course 1 Cover Image">
+            <img class="w-full object-cover" src="../assets/images/course-8.png" alt="Course 8 Cover Image">
           </a>
           <div class="border border-t-0 border-[#101213]/20 p-8 text-[#101213]">
             <div class="flex flex-col gap-2">
-              <span class="font-display text-sm font-semibold text-[#3a10e5]">Alen Mask</span>
-              <h3 class="font-base text-xl font-medium">Why Learn Intermediate SQL for Marketers?</h3>
+              <span class="font-display text-xs font-semibold text-[#3a10e5]">Alen Mask</span>
+              <h3 class="text-md font-base font-medium">Why Learn Intermediate SQL for Marketers?</h3>
             </div>
             <div class="mt-6 flex items-center gap-5">
               <div class="flex items-center gap-2">
                 <img src="../assets/icon/icon-hamburger.svg" alt="Hamburger Icon">
-                <span class="text-sm">Beginner</span>
+                <span class="text-xs">Beginner</span>
               </div>
               <div class="flex items-center gap-2">
                 <img src="../assets/icon/icon-copy.svg" alt="Hamburger Icon">
-                <span class="text-sm">3 Lessons</span>
+                <span class="text-xs">3 Lessons</span>
               </div>
             </div>
           </div>
@@ -300,8 +300,8 @@
       </div>
     </section>
 
-    <!-- Membership Section (?) -->
-    <div class="flex items-center justify-center gap-24 bg-[#fff0e5] px-36 py-16">
+    <!-- Membership Bar -->
+    <div class="flex items-center justify-center gap-24 bg-[#fff0e5] px-16 py-10 lg:px-36 lg:py-28">
       <img src="../assets/images/membership-image.png" alt="Woman Picture">
       <h3 class="font-display text-4xl font-bold text-[#101213]">Dapatkan membership Pro GRATIS untuk kelas kamu.</h3>
       <a href="#" class="flex min-w-fit items-center gap-2 rounded-md bg-[#3a10e5] px-6 py-3">
@@ -311,15 +311,15 @@
     </div>
 
     <!-- Category Section -->
-    <section class="flex flex-col items-center gap-16 px-36 pt-28" id="category">
+    <section class="flex flex-col items-center gap-16 px-16 py-10 lg:px-36 lg:py-28" id="category">
       <!-- Sub Heading -->
       <h2 class="font-display text-3xl font-bold text-[#101213]">
         Kategori
-        <span class="relative z-[1] before:absolute before:bottom-0 before:left-0 before:z-[-1] before:h-[35%] before:w-full before:bg-[#fdd5a1] before:bg-bottom">Populer</span>
+        <span class="relative z-[1] before:absolute before:bottom-0 before:left-0 before:z-[-1] before:h-[35%] before:w-full before:bg-[#fdd5a1] before:bg-bottom">populer</span>
       </h2>
 
       <!-- Grid Container -->
-      <div class="grid grid-cols-4 gap-8">
+      <div class="grid grid-cols-2 gap-5 lg:grid-cols-4">
         <!-- Category Card 1 -->
         <div class="flex items-center gap-6 rounded-lg p-6 shadow-md">
           <div class="rounded-full bg-[#f0f3ff] p-3">
@@ -334,7 +334,7 @@
             </svg>
           </div>
           <div class="space-y-1 font-display text-[#101213]">
-            <h3 class="whitespace-nowrap text-xl font-bold">Kimia</h3>
+            <h3 class="text-lg font-bold">Kimia</h3>
             <span class="text-sm text-[#101213]/75">2 Kelas</span>
           </div>
         </div>
@@ -352,13 +352,13 @@
             </svg>
           </div>
           <div class="space-y-1 font-display text-[#101213]">
-            <h3 class="whitespace-nowrap text-xl font-bold">Managemen</h3>
+            <h3 class="text-lg font-bold">Managemen</h3>
             <span class="text-sm text-[#101213]/75">2 Kelas</span>
           </div>
         </div>
         <!-- Category Card 3 -->
         <div class="flex items-center gap-6 rounded-lg p-6 shadow-md">
-          <div class="whitespace-nowrap rounded-full bg-[#f0f3ff] p-3">
+          <div class="rounded-full bg-[#f0f3ff] p-3">
             <svg width="41" height="41" viewBox="0 0 41 41" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
               <rect width="40" height="40" transform="translate(0.361328 0.0112)" fill="url(#pattern2)"/>
               <defs>
@@ -370,7 +370,7 @@
             </svg>
           </div>
           <div class="space-y-1 font-display text-[#101213]">
-            <h3 class="overflow-hidden whitespace-nowrap text-xl font-bold">Seni Budaya</h3>
+            <h3 class="text-lg font-bold">Seni Budaya</h3>
             <span class="text-sm text-[#101213]/75">2 Kelas</span>
           </div>
         </div>
@@ -388,7 +388,7 @@
             </svg>
           </div>
           <div class="space-y-1 font-display text-[#101213]">
-            <h3 class="whitespace-nowrap text-xl font-bold">Bisnis</h3>
+            <h3 class="text-lg font-bold">Bisnis</h3>
             <span class="text-sm text-[#101213]/75">2 Kelas</span>
           </div>
         </div>
@@ -406,7 +406,7 @@
             </svg>
           </div>
           <div class="space-y-1 font-display text-[#101213]">
-            <h3 class="whitespace-nowrap text-xl font-bold">Astrologi</h3>
+            <h3 class="text-lg font-bold">Astrologi</h3>
             <span class="text-sm text-[#101213]/75">2 Kelas</span>
           </div>
         </div>
@@ -416,7 +416,7 @@
             <img src="../assets/icon/icon-rocket.png" alt="Rocket Icon">
           </div>
           <div class="space-y-1 font-display text-[#101213]">
-            <h3 class="whitespace-nowrap text-xl font-bold">SEO</h3>
+            <h3 class="text-lg font-bold">SEO</h3>
             <span class="text-sm text-[#101213]/75">2 Kelas</span>
           </div>
         </div>
@@ -434,7 +434,7 @@
             </svg>
           </div>
           <div class="space-y-1 font-display text-[#101213]">
-            <h3 class="whitespace-nowrap text-xl font-bold">Kosmologi</h3>
+            <h3 class="text-lg font-bold">Kosmologi</h3>
             <span class="text-sm text-[#101213]/75">2 Kelas</span>
           </div>
         </div>
@@ -452,14 +452,14 @@
             </svg>
           </div>
           <div class="space-y-1 font-display text-[#101213]">
-            <h3 class="whitespace-nowrap text-xl font-bold">Biologi</h3>
+            <h3 class="text-lg font-bold">Biologi</h3>
             <span class="text-sm text-[#101213]/75">2 Kelas</span>
           </div>
         </div>
       </div>
 
       <a class="flex items-center gap-2 text-sm font-bold text-[#3a10e5]" href="#">
-        <span>Explore All Course</span>
+        <span>Explore All Courses</span>
         <svg width="13" height="17" viewBox="0 0 13 17" fill="none" xmlns="http://www.w3.org/2000/svg">
           <g clip-path="url(#clip0_1_342)">
             <path d="M11.7563 8.26123L7.16255 12.8862C6.97505 13.0737 6.79797 13.0737 6.6313 12.8862L6.0063 12.2925C5.83964 12.105 5.83964 11.9279 6.0063 11.7612L9.72505 8.01123L6.0063 4.26123C5.83964 4.09456 5.83964 3.91748 6.0063 3.72998L6.6313 3.13623C6.79797 2.94873 6.97505 2.94873 7.16255 3.13623L11.7563 7.76123C11.923 7.9279 11.923 8.09456 11.7563 8.26123ZM6.7563 7.76123C6.92297 7.9279 6.92297 8.09456 6.7563 8.26123L2.16255 12.8862C1.97505 13.0737 1.79797 13.0737 1.6313 12.8862L1.0063 12.2925C0.839635 12.105 0.839635 11.9279 1.0063 11.7612L4.72505 8.01123L1.0063 4.26123C0.839635 4.09456 0.839635 3.91748 1.0063 3.72998L1.6313 3.13623C1.79797 2.94873 1.97505 2.94873 2.16255 3.13623L6.7563 7.76123Z" fill="#3A10E5"/>
@@ -474,7 +474,7 @@
     </section>
 
     <!-- Gatau ini section apa -->
-    <div class="px-36 py-28">
+    <div class="px-16 py-10 lg:px-36 lg:py-28">
       <div class="flex items-center gap-16 bg-[#f0f3ff] p-12">
         <img class="max-w-sm" src="../assets/images/business-image.png" alt="Women Business Potrait">
         <div class="flex flex-col gap-8">
@@ -489,7 +489,7 @@
     </div>
 
     <!-- Event Section -->
-    <section class="flex flex-col items-center gap-16 px-36 pb-28" id="event">
+    <section class="flex flex-col items-center gap-16 px-16 pb-10 lg:px-36 lg:pb-28" id="event">
       <!-- Sub Heading -->
       <h2 class="font-display text-3xl font-bold text-[#101213]">
         Event
@@ -500,7 +500,7 @@
       </h2>
 
       <!-- Grid Container -->
-      <div class="grid grid-cols-3 gap-8">
+      <div class="grid grid-cols-1 gap-8 lg:grid-cols-3">
         <!-- Event Card 1 -->
         <div class="flex flex-col gap-8 bg-white">
           <img src="../assets/images/event-1.png" alt="Event 1 Cover">
@@ -514,7 +514,7 @@
               <svg width="11" height="14" viewBox="0 0 11 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M5.08852 13.0723C1.38148 7.74023 0.721329 7.18164 0.721329 5.20117C0.721329 2.50977 2.87953 0.326172 5.59633 0.326172C8.28773 0.326172 10.4713 2.50977 10.4713 5.20117C10.4713 7.18164 9.78578 7.74023 6.07875 13.0723C5.85023 13.4277 5.31703 13.4277 5.08852 13.0723ZM5.59633 7.23242C6.71352 7.23242 7.62758 6.34375 7.62758 5.20117C7.62758 4.08398 6.71352 3.16992 5.59633 3.16992C4.45375 3.16992 3.56508 4.08398 3.56508 5.20117C3.56508 6.34375 4.45375 7.23242 5.59633 7.23242Z" fill="#3A10E5"/>
               </svg>
-              <span class="font-display text-sm font-medium text-[#101213]/60">North Caroline United States</span>
+              <span class="font-display text-xs font-medium text-[#101213]/60">North Caroline United States</span>
             </div>
           </div>
           <h3 class="font-display text-xl font-bold text-[#101213]">Linear Regression in Python: Introduction to Simple Linear</h3>
@@ -532,7 +532,7 @@
               <svg width="11" height="14" viewBox="0 0 11 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M5.08852 13.0723C1.38148 7.74023 0.721329 7.18164 0.721329 5.20117C0.721329 2.50977 2.87953 0.326172 5.59633 0.326172C8.28773 0.326172 10.4713 2.50977 10.4713 5.20117C10.4713 7.18164 9.78578 7.74023 6.07875 13.0723C5.85023 13.4277 5.31703 13.4277 5.08852 13.0723ZM5.59633 7.23242C6.71352 7.23242 7.62758 6.34375 7.62758 5.20117C7.62758 4.08398 6.71352 3.16992 5.59633 3.16992C4.45375 3.16992 3.56508 4.08398 3.56508 5.20117C3.56508 6.34375 4.45375 7.23242 5.59633 7.23242Z" fill="#3A10E5"/>
               </svg>
-              <span class="font-display text-sm font-medium text-[#101213]/60">North Caroline United States</span>
+              <span class="font-display text-xs font-medium text-[#101213]/60">North Caroline United States</span>
             </div>
           </div>
           <h3 class="font-display text-xl font-bold text-[#101213]">Linear Regression in Python: Introduction to Simple Linear</h3>
@@ -550,7 +550,7 @@
               <svg width="11" height="14" viewBox="0 0 11 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M5.08852 13.0723C1.38148 7.74023 0.721329 7.18164 0.721329 5.20117C0.721329 2.50977 2.87953 0.326172 5.59633 0.326172C8.28773 0.326172 10.4713 2.50977 10.4713 5.20117C10.4713 7.18164 9.78578 7.74023 6.07875 13.0723C5.85023 13.4277 5.31703 13.4277 5.08852 13.0723ZM5.59633 7.23242C6.71352 7.23242 7.62758 6.34375 7.62758 5.20117C7.62758 4.08398 6.71352 3.16992 5.59633 3.16992C4.45375 3.16992 3.56508 4.08398 3.56508 5.20117C3.56508 6.34375 4.45375 7.23242 5.59633 7.23242Z" fill="#3A10E5"/>
               </svg>
-              <span class="font-display text-sm font-medium text-[#101213]/60">North Caroline United States</span>
+              <span class="font-display text-xs font-medium text-[#101213]/60">North Caroline United States</span>
             </div>
           </div>
           <h3 class="font-display text-xl font-bold text-[#101213]">Linear Regression in Python: Introduction to Simple Linear</h3>
@@ -559,8 +559,8 @@
     </section>
   </main>
 
-  <footer class="bg-[#090e23] px-36 pt-28">
-    <div class="mb-12 grid grid-flow-col place-items-start gap-4">
+  <footer class="bg-[#090e23] px-16 pt-10 lg:px-36 lg:pt-28">
+    <div class="mb-12 grid place-items-start gap-8 lg:grid-flow-col lg:gap-4">
       <aside class="grid place-items-start gap-8">
         <img src="../assets/logo-ligasmk-white.png" alt="Logo SMK Coding Putih">
         <p class="max-w-xs font-base text-base text-white/60">Mengubah kehidupan, bisnis, dan bangsa melalui transformasi talenta di bidang teknologi digital.</p>
@@ -599,8 +599,8 @@
       </div>
     </div>
     <hr class="border-[#f0f3ff]/10">
-    <div class="flex items-center justify-between py-6 font-base text-white/60">
-      <ul class="flex gap-8">
+    <div class="flex flex-col items-center justify-between gap-5 py-6 font-base text-white/60 lg:flex-row">
+      <ul class="flex gap-3 text-sm lg:gap-8 lg:text-base">
         <li>
           <a href="#">Site Map</a>
         </li>
@@ -618,7 +618,7 @@
         </li>
       </ul>
 
-      <span>Liga SMK 2023</span>
+      <span class="text-sm lg:text-base">Liga SMK 2023</span>
     </div>
   </footer>
 </body>
